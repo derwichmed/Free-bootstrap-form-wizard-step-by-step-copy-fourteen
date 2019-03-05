@@ -1,0 +1,99 @@
+#backgroud_img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1
+}
+.form_wizard > div{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.form_wizard header{
+    text-align: center;
+    padding-top: 25px
+}
+.form_wizard header strong{
+    font-size: 22px
+}
+.form_wizard header em{
+    color: #929292
+}
+.form_wizard header .steps{
+    margin-top: 25px
+}
+.form_wizard header .steps .item{
+    padding-top: 8px;
+    padding-bottom: 8px
+}
+.form_wizard header .steps .item em{
+    text-align: center;
+    color: white
+}
+.form_wizard header .steps_activ{
+    background-color: orange
+}
+.form_wizard header .steps_disable{
+    background-color: #929292
+}
+.form_wizard .form_item{
+    margin-top: 30px
+}
+.form_wizard .form_item #upload_file{
+    width: 100px;
+    height: 100px;
+    border: #929292 2px solid;
+    border-radius: 100%;
+    background-color: white;
+    margin: auto;
+    padding: 15px;
+    display: block;
+    cursor: pointer
+}
+.form_wizard .form_item #upload_file:hover{
+    border-color: orange
+}
+.form_wizard .form_item #upload_file img{
+    width: 100%;
+    height: 100%
+}
+.form_wizard .form_item input{
+    width: 100%;
+    height: 45px;
+    border: #b9b9b9 1px solid;
+    border-radius: 5px;
+    margin-bottom: 20px
+}
+.form_wizard .form_item textarea{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px
+}
+.form_wizard footer{
+    padding: 30px
+}
+.form_wizard footer input{
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 150px
+}
+.form_wizard footer .pre_step{
+    background-color: #929292;
+}
+.form_wizard footer .nxt_step, 
+.form_wizard footer .submit_btn
+{
+    background-color: orange;
+}
+.form_wizard footer .submit_btn{
+    display: none
+}
+

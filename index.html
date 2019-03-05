@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/my_style.css"/>
+        <link rel="stylesheet" href="../team_profile/css/my_style.css"/>
+        <script src="js/jquery-3.3.1.min (1).js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="js/responsiv.js"></script>
+        </head>
+        <body class="container-fluid" style="
+              background-image: url('img/wizard.jpg');
+              background-size: 100% 100%;
+              background-attachment: fixed
+              ">
+           <!-- <img src="img/wizard.jpg" id="backgroud_img"/> -->
+            <section class="row justify-content-center form_wizard">
+                <div class="col-lg-6" style="padding: 0px">
+                    <header class="container-fluid">
+                            <strong>
+                                BUILD YOUR PROFILE 
+                            </strong>
+                            <br/>
+                            <em>
+                                This information will let us know more about you.
+                            </em>
+                        <div class="steps row">
+                            <div class="col-lg item steps_activ">
+                                <em>
+                                    ABOUT
+                                </em>
+                            </div>
+                            <div class="col-lg item steps_disable">
+                                <em>
+                                    ACCOUNT
+                                </em>
+                            </div>
+                            <div class="col-lg item steps_disable">
+                                <em>
+                                    ADRESS
+                                </em>
+                            </div>
+                        </div>
+                    </header>
+                    <section class="container-fluid form_item">
+                        <div style="margin-bottom: 30px;text-align: center">
+                        <strong class="title">
+                            Let's start with the basic information.
+                        </strong>
+                        </div>    
+                        <div class="row justify-content-center">
+                            <div class="col-lg" style="text-align: center">
+                                <label id="upload_file">
+                                    <input type="file" style="display: none"/>
+                                    <img src="img/profile.png"/>
+                                </label>
+                                <strong>
+                                    Load your photo
+                                </strong>
+                            </div>
+                            <div class="col-lg">
+                                <div>
+                                    <label>
+                                        First name:
+                                    </label>
+                                    <br/>
+                                    <input type="text"/>
+                                </div>
+                                <div>
+                                    <label>
+                                        Last name:
+                                    </label>
+                                    <br/>
+                                    <input type="text"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row"> 
+                            <div class="col-lg">
+                                <label>
+                                    Make your adress
+                                </label>
+                                <br/>
+                                <textarea></textarea>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="container-fluid form_item" style="display: none">
+                        <div style="margin-bottom: 30px;text-align: center">
+                        <strong class="title">
+                            Enter your bank information.
+                        </strong>
+                        </div>    
+                        <div class="row"> 
+                            <div class="col-lg">
+                                <label>
+                                    Bank Name:
+                                </label>
+                                <br/>
+                                <input type="text"/>
+                            </div>
+                            <div class="col-lg">
+                                <label>
+                                    Branch Name:
+                                </label>
+                                <br/>
+                                <input type="text"/>
+                            </div>
+                        </div>
+                        <div class="row"> 
+                            <div class="col-lg">
+                                <label>
+                                    Account Name:
+                                </label>
+                                <br/>
+                                <input type="text"/>
+                            </div>
+                        </div>
+                        <div class="row"> 
+                            <div class="col-lg">
+                                <label>
+                                    Account Number:
+                                </label>
+                                <br/>
+                                <input type="text"/>
+                            </div>
+                        </div>
+                        <div class="row"> 
+                            <div class="col-lg">
+                                <label>
+                                    Account Created:
+                                </label>
+                                <br/>
+                                <input type="date"/>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="container-fluid form_item" style="display: none">
+                        <div style="margin-bottom: 30px;text-align: center">
+                        <strong class="title">
+                            Enter your personnel information.
+                        </strong>
+                        </div>    
+                        <div class="row"> 
+                            <div class="col-lg">
+                                <label>
+                                    Last Name:
+                                </label>
+                                <br/>
+                                <input type="text"/>
+                            </div>
+                            <div class="col-lg">
+                                <label>
+                                    First Name:
+                                </label>
+                                <br/>
+                                <input type="text"/>
+                            </div>
+                        </div>
+                        <div class="row"> 
+                            <div class="col-lg">
+                                <label>
+                                    Date Of Birth:
+                                </label>
+                                <br/>
+                                <input type="date"/>
+                            </div>
+                        </div>
+                        <div class="row"> 
+                            <div class="col-lg">
+                                <label>
+                                    Phone Number:
+                                </label>
+                                <br/>
+                                <input type="text"/>
+                            </div>
+                            <div class="col-lg">
+                                <label>
+                                    Zib Code:
+                                </label>
+                                <br/>
+                                <input type="text"/>
+                            </div>
+                        </div>
+                        <div class="row"> 
+                            <div class="col-lg">
+                                <label>
+                                    Your State:
+                                </label>
+                                <br/>
+                                <input type="text"/>
+                            </div>
+                            <div class="col-lg">
+                                <label>
+                                    Contry Name:
+                                </label>
+                                <br/>
+                                <input type="text"/>
+                            </div>
+                        </div>
+                    </section>
+                    <footer class="container-fluid">
+                        <div class="row justify-content-between">
+                            <div>
+                                <input type="button" value="previous" class="pre_step"/>
+                            </div>
+                            <div>
+                                <input type="button" value="next step" class="nxt_step"/>
+                                <input type="button" value="submit" class="submit_btn"/>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </section>
+        </body>
+</html>
